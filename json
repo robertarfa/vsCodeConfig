@@ -10,7 +10,8 @@
   "editor.wordWrapColumn": 145,
   "editor.codeActionsOnSave": {
     "source.organizeImports": true,
-    "source.addMissingImports": true
+    "source.addMissingImports": true,
+    "source.fixAll": true
   },
   "editor.autoClosingOvertype": "always",
   "editor.cursorBlinking": "expand",
@@ -19,27 +20,25 @@
   "editor.autoIndent": "brackets",
   "errorLens.fontStyleItalic": true,
   "javascript.preferences.quoteStyle": "single",
-  // "javascript.format.semicolons": "insert",
   "typescript.preferences.quoteStyle": "single",
-  // "typescript.format.semicolons": "insert",
   "emmet.preferences": {
     "quoteStyle": "single"
   },
   "html.format.wrapLineLength": 100,
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascriptreact]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnType": true
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "vscode.typescript-language-features",
-    "editor.formatOnType": true
-  },
+  // "[html]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[javascriptreact]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode"
+  // },
+  // "[javascript]": {
+  //   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  //   "editor.formatOnType": true
+  // },
+  // "[typescript]": {
+  //   "editor.defaultFormatter": "vscode.typescript-language-features",
+  //   "editor.formatOnType": true
+  // },
   "[python]": {
     "editor.formatOnType": true
   },
@@ -57,7 +56,6 @@
   "javascript.suggest.autoImports": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.rulers": [
-    80,
     120
   ],
   "extensions.ignoreRecommendations": true,
@@ -177,5 +175,8 @@
   },
   "window.commandCenter": true,
   "git.openRepositoryInParentFolders": "always",
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  "prettier.semi": false,
+  "javascript.format.semicolons": "remove",
+  "typescript.format.semicolons": "remove"
 }
